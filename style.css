@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* กำหนดไม่ให้มีการแสดงผลที่มีส่วนเกินในมือถือ ?*/
+body ,html{
+    overflow-x: hidden;
+}
+
+.container{
+    position: relative;
+}
+
+/* Banner CSS  */
+.banner h1{
+    margin: 30px 0;
+}
+
+.carousel-item img{ 
+    height: 450px;
+}
+
+
+/* About CSS  */
+.about img{
+    max-width: auto;
+    max-height: 450px;
+    height: auto;
+}
+
+/* Certificate CSS  */
+.cer-pic img{
+    max-width: 100%;
+    max-height: 450px;
+    padding: 1rem;
+    margin: auto;
+}

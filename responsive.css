@@ -1,0 +1,21 @@
+@media only screen and (max-width : 912px) {
+    .about-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about p{
+        margin-top: 1rem;
+    }
+
+    .carousel-item img{
+        height: 250px;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

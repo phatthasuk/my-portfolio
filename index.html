@@ -1,0 +1,363 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>My Portfolio</title>
+</head>
+
+<body class="container" style="font-family: Montserrat;">
+    <!-- Navbar section -->
+    <nav class=" navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid p-md-2">
+
+            <a class="navbar-brand text-warning fs-2" href="/">My Portfolio</a>
+
+            <button class=" navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="/" class="nav-link text-warning fs-5">Home</a>
+                    </li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-warning fs-5">About</a></li>
+                    <li class="nav-item"><a href="#career" class="nav-link text-warning fs-5">Objective</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link text-warning fs-5">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link text-warning fs-5">Projects</a></li>
+                    <li class="nav-item"><a href="/certificate.html" class="nav-link text-warning fs-5">Certificate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner section  -->
+    <div class="bg-warning">
+        <div class="d-flex flex-column text-center justify-content-center" data-aos="fade-down">
+            <h1 class="m-3 p-2">
+                <i class="fa-regular fa-chess-rook"></i> Never Stop Learning...
+            </h1>
+
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner mb-3" data-aos="flip-left">
+                    <div class="carousel-item active">
+                        <img class="img-fluid w-75"
+                            src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="กำลังดำเนินการแก้ไข.....">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid w-75"
+                            src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="กำลังดำเนินการแก้ไข.....">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid w-75"
+                            src="https://images.unsplash.com/photo-1583124252465-d281e51012bf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="กำลังดำเนินการแก้ไข.....">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section  -->
+    <div class="about bg-dark p-5 text-center" id="about">
+        <h1 class="text-warning mb-5 border border-5 border-warning border p-2" data-aos="fade-down">About Me</h1>
+
+        <div class="about-content d-flex flex-row gap-5 justify-content-center">
+
+            <img class="img-thumbnail" src="picture/BA084785-AD25-4047-8F6B-12BAD213AFBE_result.webp"
+                alt="กำลังดำเนินการแก้ไข" data-aos="fade-right">
+
+            <div>
+                <h5 class="text-warning text-start border border-2 border-warning p-2" data-aos="fade-left">
+                    ขออนุญาติแนะนำตัวครับ <br><br> ผมชื่อนายภัทร์ศักดิ์ พิบูลย์ก้องเดช ปัจจุบันอายุ 29 ปีครับ
+                </h5>
+                <h5 class="text-warning text-start border border-2 border-warning p-2 mt-3" data-aos="fade-left">
+                    จบการศึกษา วิศวกรรมคอมพิวเตอร์ <br> จากมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
+                </h5>
+
+                <div class="border border-2 border-warning p-2 mt-3" data-aos="fade-left">
+                    <h5 class="text-warning text-center mb-3">
+                        ประสบการณ์ในการทํางาน
+                    </h5>
+                    <p class="text-warning text-start">
+                        [Feb 2022 - Jan 2023] <br> Front-End Developer (Freelance)
+                    </p>
+                    <p class="text-warning text-start">
+                        [Jan 2020 - Feb 2021] <br> เสมียนทนายความ
+                    </p>
+                    <p class="text-warning text-start">
+                        [Aug 2018 - Sep 2019] <br> Wordpress Developer (Freelance)
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Career objective section -->
+    <div class="bg-warning p-5" id="career">
+        <h1 class="text-center mb-5 border border-5 border-dark border p-2" data-aos="fade-down">Career Objective</h1>
+        <div class="row gap-2">
+
+            <!-- Objective1  -->
+            <div class=" col-md shadow bg-dark pt-3" data-aos="fade-right">
+                <div class="col">
+                    <img class="img-fluid"
+                        src="https://plus.unsplash.com/premium_photo-1683121352005-2f72986a518e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="กำลังดำเนินการแก้ไข.....">
+                    <p class="text-center text-warning m-3">การทำงานเป็นทีมร่วมกับบุคคลอื่น</p>
+                </div>
+            </div>
+
+            <!-- Objective2  -->
+            <div class="col-md shadow bg-dark pt-3" data-aos="fade-up">
+                <div class="col">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1652560403140-d240c396892b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="กำลังดำเนินการแก้ไข.....">
+                    <p class="text-center text-warning m-3">
+                        นำความรู้ความสามารถที่มีอยู่มาใช้ในการทำงานเพื่อให้งานสำเร็จลุล่วง</p>
+                </div>
+            </div>
+
+            <!-- Objective3  -->
+            <div class="col-md shadow bg-dark pt-3" data-aos="fade-left">
+                <div class="col">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1472745433479-4556f22e32c2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="กำลังดำเนินการแก้ไข.....">
+                    <p class="text-center text-warning m-3">ศึกษาเทคโนโลยีใหม่ๆเพื่อพัฒนาตนเอง</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills section -->
+    <div class="bg-dark p-5 " id="skills">
+        <h1 class="text-warning text-center border border-5 border-warning border p-2" data-aos="fade-down">Skills</h1>
+        <div class="row pt-3">
+            <div class="col-md mb-2">
+
+                <!-- Box1  -->
+                <div class="col p-3 text-warning" data-aos="fade-right">
+                    <!-- Programing lang section -->
+                    <div class="mt-2 border border-2 border-warning p-1">
+                        <h5>Programing Languages</h5>
+                        <p><i class="fa-solid fa-code"></i> C</p>
+                        <p><i class="fa-brands fa-python"></i> Python</p>
+                        <p><i class="fa-brands fa-js"></i> JavaScript</p>
+                        <p><i class="fa-solid fa-database"></i> SQL</p>
+                    </div>
+
+                    <!-- Framework & Lib section -->
+                    <div class="mt-2 border border-2 border-warning p-1">
+                        <h5>Framework & Library</h5>
+                        <p><i class="fa-brands fa-react"></i> React.JS</p>
+                        <p><i class="fa-brands fa-bootstrap"></i> Bootstrap5</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" fill-rule="evenodd"
+                                    d="M7 9.969q1-4.063 5-4.063c4 0 4.5 3.047 6.5 3.555q2 .508 3.5-1.524Q21 12 17 12c-4 0-4.5-3.047-6.5-3.555Q8.5 7.938 7 9.97m-5 6.094Q3 12 7 12c4 0 4.5 3.047 6.5 3.555q2 .507 3.5-1.524q-1 4.063-5 4.063c-4 0-4.5-3.047-6.5-3.555q-2-.508-3.5 1.524"
+                                    clip-rule="evenodd" />
+                            </svg> Tailwind CSS</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M8 16.61v-1.24l6-3.46V7.23l-5 2.89l-5-2.89V13l-1 .58L2 13V5l1.07-.62L9 7.81l3.93-2.27l2-1.16L16 5v8.06L10.92 16l4.05 2.33l5.03-2.9V11l1-.58l1 .58v5.58l-7.03 4.06zm14-6.86l-1 .58l-1-.58V8.58L21 8l1 .58z" />
+                            </svg> Material-UI</p>
+                    </div>
+
+                    <!-- Tools section  -->
+                    <div class="mt-2 border border-2 border-warning p-1">
+                        <h5>Tools</h5>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M15.695 16.318L10.333 12m5.362 4.318V7.682m0 8.636v2.18c0 .68-.27 1.332-.75 1.813M10.332 12l5.362-4.318M10.333 12L7.828 9.983m7.867-2.3v-2.18c0-.68-.27-1.333-.75-1.814M7.827 14.017l-3.516 2.831a.61.61 0 0 1-.813-.044l-1.071-1.076a.61.61 0 0 1 .022-.881L5.598 12m2.23 2.017l6.456 5.84q.304.273.66.454m-7.116-6.294L5.598 12m0 0L2.45 9.153a.61.61 0 0 1-.022-.881l1.071-1.076c.22-.22.57-.24.813-.044l3.516 2.83m0 0l6.456-5.839q.304-.273.66-.454m0 16.622a3.04 3.04 0 0 0 2.517.113l2.334-.937c.577-.232.955-.791.955-1.413V5.926c0-.622-.378-1.181-.955-1.413l-2.334-.937a3.04 3.04 0 0 0-2.517.113" />
+                            </svg> Visual Studio Code</p>
+                        <p><i class="fa-brands fa-github"></i> Github</p>
+                        <p><i class="fa-brands fa-wordpress"></i> Wordpress</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
+                                <path fill="currentColor"
+                                    d="M115.95 2.781c-5.504-4.906-12.16-2.933-18.738 2.902a48 48 0 0 0-2.918 2.856c-11.246 11.93-21.684 34.02-24.926 50.895c1.262 2.563 2.25 5.832 2.902 8.328a71 71 0 0 1 .875 3.746s-.101-.379-.515-1.578l-.266-.777a8 8 0 0 0-.176-.426c-.734-1.707-2.761-5.309-3.656-6.875a172 172 0 0 0-2.008 6.27c2.582 4.714 4.149 12.8 4.149 12.8s-.133-.527-.782-2.355c-.57-1.617-3.437-6.637-4.117-7.809c-1.16 4.29-1.62 7.18-1.207 7.883c.813 1.363 1.578 3.723 2.25 6.324c1.528 5.868 2.586 13.016 2.586 13.016l.094 1.192c-.203 4.886-.102 9.781.297 14.656c.508 6.113 1.457 11.359 2.668 14.172l.824-.45c-1.781-5.535-2.504-12.792-2.184-21.155c.477-12.79 3.422-28.215 8.856-44.29c9.191-24.261 21.938-43.733 33.602-53.034c-10.63 9.601-25.023 40.695-29.332 52.203C79.404 74.162 75.99 86.252 73.93 97.84c3.555-10.863 15.043-15.527 15.043-15.527s5.637-6.954 12.223-16.883c-3.945.898-10.426 2.441-12.598 3.351c-3.2 1.34-4.063 1.797-4.063 1.797s10.371-6.312 19.27-9.172c12.234-19.27 25.566-46.645 12.145-58.625m-99.054 2.9c-5.398.02-9.77 4.39-9.785 9.789v88.574c.016 5.398 4.39 9.765 9.785 9.785h50.227a123 123 0 0 1-.277-14.438c-.031-.332-.059-.754-.086-1.067a143 143 0 0 0-2.523-12.684c-.645-2.507-1.465-4.789-1.965-5.636c-.621-1.051-.524-1.653-.52-2.305c0-.64.082-1.305.2-2.059q.473-2.818 1.246-5.574l1.156-.148c-.09-.188-.074-.348-.164-.516l-.219-2.031A169 169 0 0 1 66.011 61l1.066-.102c-.043-.082-.055-.203-.098-.28l-.23-1.685c3.363-17.496 13.8-39.699 25.601-52.219c.352-.37.711-.683 1.055-1.035z" />
+                            </svg> SQLite</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box2 -->
+            <div class="col-md mb-2" data-aos="fade-left">
+                <div class="col p-3 text-warning">
+                    <!-- Photo section  -->
+                    <div class="mt-2 border border-2 border-warning p-1">
+                        <h5>Photo</h5>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5">
+                                    <path d="M21 7v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4" />
+                                    <path d="M7 8v8h4m3-5.5V13m0 3v-3m0 0s0-2.5 3-2.5" />
+                                </g>
+                            </svg> Adobe Lightroom</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" color="currentColor">
+                                    <path
+                                        d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" />
+                                    <path
+                                        d="M6.5 16v-4m0 0V9.125c0-.116 0-.174.005-.223a1 1 0 0 1 .897-.897C7.451 8 7.509 8 7.625 8H9a2 2 0 1 1 0 4zm10.966-.777C17.292 10.527 16.478 10 15.5 10c-1.105 0-2 .672-2 1.5s.895 1.5 2 1.5s2 .672 2 1.5s-.895 1.5-2 1.5c-.982 0-1.798-.53-1.968-1.23" />
+                                </g>
+                            </svg> Adobe Photoshop</p>
+                    </div>
+
+                    <!-- Video section  -->
+                    <div class="mt-2 border border-2 border-warning p-1">
+                        <h5>Video</h5>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" color="currentColor">
+                                    <path
+                                        d="M10.8 12L6 14.5c0 1.178 0 1.268.352 1.634c.351.366.917.366 2.048.366h4.801c1.132 0 1.698 0 2.05-.366s.351-.456.351-1.634M10.8 12L18 8.25M10.8 12L6 9.5c0-1.179 0-1.268.352-1.634C6.703 7.5 7.269 7.5 8.4 7.5h4.801c1.132 0 1.698 0 2.05.366s.351.455.351 1.634M10.8 12l7.2 3.75" />
+                                    <path
+                                        d="M2.498 12c0-4.478 0-6.718 1.391-8.109S7.519 2.5 11.998 2.5c4.478 0 6.717 0 8.109 1.391c1.39 1.391 1.39 3.63 1.39 8.109c0 4.478 0 6.718-1.39 8.109c-1.392 1.391-3.63 1.391-8.11 1.391c-4.478 0-6.717 0-8.108-1.391S2.498 16.479 2.498 12" />
+                                </g>
+                            </svg> Capcut</p>
+                        <p><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 122.88 122.88">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #FFC107;
+                                        }
+                                    </style>
+                                </defs>
+                                <title>sony-vegas</title>
+                                <path class="cls-1"
+                                    d="M4.31,4.31q0,57.12,0,114.26,57.12,0,114.26,0,0-57.13,0-114.26ZM0,0H122.88V122.88H0V0Z" />
+                                <path class="cls-1"
+                                    d="M28.21,27.29c2.72,0,5.44,0,8.16,0,.64,0,1.29,0,1.93,0q9.23,25.11,18.49,50.21c1,2.73,1.94,5.48,2.78,8.27.24.72.42,1.47.68,2.19,1.47-5.32,3.49-10.47,5.47-15.62L83,27.3c3.18,0,6.36,0,9.53,0L65,95.58c-3.18,0-6.36,0-9.54,0q-6.07-15.14-12.1-30.31-7.5-18.8-15-37.59c-.05-.13-.1-.27-.14-.4Z" />
+                                <path
+                                    d="M28.21,27.29c0,.13.09.27.14.4q7.49,18.79,15,37.59,6.06,15.16,12.1,30.31c3.18,0,6.36,0,9.54,0L92.5,27.29c-3.17,0-6.35,0-9.53,0L65.72,72.36c-2,5.15-4,10.3-5.47,15.62-.26-.72-.44-1.47-.68-2.19-.84-2.79-1.78-5.54-2.78-8.27Q47.55,52.41,38.3,27.31c-.64-.06-1.29,0-1.93,0-2.72,0-5.44,0-8.16,0Zm-23.9-23H118.57q0,57.12,0,114.26-57.13,0-114.26,0,0-57.13,0-114.26Z" />
+                            </svg> Sony Vegas Pro</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1">
+                                    <path
+                                        d="M7 16.5v-4m0 0v-5h2.5a2.5 2.5 0 0 1 0 5zM15.5 9v7.5m0-5c.547-1.11 1.563-2 3.5-2" />
+                                    <path
+                                        d="M1.5 4.5a3 3 0 0 1 3-3h15a3 3 0 0 1 3 3v15a3 3 0 0 1-3 3h-15a3 3 0 0 1-3-3z" />
+                                </g>
+                            </svg> Adobe Premiere Pro</p>
+                    </div>
+
+                    <!-- Basic section  -->
+                    <div class="mt-2 border border-2 border-warning p-1">
+                        <h5>Basic</h5>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12s12-5.373 12-12S18.627 0 12 0M6.962 7.68c.754 0 1.337.549 1.405 1.2c.069.583-.171 1.097-.822 1.406c-.343.171-.48.172-.549.069c-.034-.069 0-.137.069-.206c.617-.514.617-.926.548-1.508c-.034-.378-.308-.618-.583-.618c-1.2 0-2.914 2.674-2.674 4.629c.103.754.549 1.646 1.509 1.646c.308 0 .65-.103.96-.24c.5-.264.799-.47 1.097-.8c-.073-.885.704-2.046 1.851-2.046c.515 0 .926.205.96.583c.068.514-.377.582-.514.582s-.378-.034-.378-.17c-.034-.138.309-.07.275-.378c-.035-.206-.24-.274-.446-.274c-.72 0-1.131.994-1.029 1.611c.035.275.172.549.447.549c.205 0 .514-.31.617-.755c.068-.308.343-.514.583-.514c.102 0 .17.034.205.171v.138c-.034.137-.137.548-.102.651c0 .069.034.171.17.171c.092 0 .436-.18.777-.459c.117-.59.253-1.298.253-1.357c.034-.24.137-.48.617-.48c.103 0 .171.034.205.171v.138l-.136.617c.445-.583 1.097-.994 1.508-.994c.172 0 .309.102.309.274c0 .103 0 .274-.069.446c-.137.377-.309.96-.412 1.474c0 .137.035.274.207.274s.685-.206 1.096-.754l.007-.004c-.002-.068-.007-.134-.007-.202c0-.411.035-.754.104-.994c.068-.274.411-.514.617-.514c.103 0 .205.069.205.171c0 .035 0 .103-.034.137c-.137.446-.24.857-.24 1.269c0 .24.034.582.102.788c0 .034.035.069.07.069c.068 0 .548-.445.89-1.028c-.308-.206-.48-.549-.48-.96c0-.72.446-1.097.858-1.097c.343 0 .617.24.617.72c0 .308-.103.65-.274.96h.102a.77.77 0 0 0 .584-.24a.3.3 0 0 1 .134-.117c.335-.425.83-.74 1.41-.74c.48 0 .924.205.959.582c.068.515-.378.618-.515.618l-.002-.002c-.138 0-.377-.035-.377-.172s.309-.068.274-.376c-.034-.206-.24-.275-.446-.275c-.686 0-1.13.891-1.028 1.611c.034.275.171.583.445.583c.206 0 .515-.308.652-.754c.068-.274.343-.514.583-.514c.103 0 .17.034.205.171c0 .069 0 .206-.137.652c-.17.308-.171.48-.137.617c.034.274.171.48.309.583c.034.034.068.102.068.102c0 .069-.034.138-.137.138c-.034 0-.068 0-.103-.035c-.514-.205-.72-.548-.789-.891c-.205.24-.445.377-.72.377c-.445 0-.89-.411-.96-.926a1.6 1.6 0 0 1 .075-.649c-.203.13-.422.203-.623.203h-.17c-.447.652-.927 1.098-1.27 1.303a.9.9 0 0 1-.377.104c-.068 0-.171-.035-.205-.104c-.095-.152-.156-.392-.193-.667c-.481.527-1.145.805-1.453.805c-.343 0-.548-.206-.582-.55v-.376c.102-.754.377-1.2.377-1.337a.074.074 0 0 0-.069-.07c-.24 0-1.028.824-1.166 1.373l-.103.445c-.068.309-.377.515-.582.515c-.103 0-.172-.035-.206-.172v-.137l.046-.233c-.435.31-.87.508-1.075.508c-.308 0-.48-.172-.514-.412c-.206.274-.445.412-.754.412c-.352 0-.696-.24-.862-.593c-.244.275-.523.553-.852.764c-.48.309-1.028.549-1.68.549c-.582 0-1.097-.309-1.371-.583c-.412-.377-.651-.96-.686-1.509c-.205-1.68.823-3.84 2.4-4.8c.378-.205.755-.343 1.132-.343m9.77 3.291c-.104 0-.172.172-.172.343c0 .274.137.583.309.755a1.7 1.7 0 0 0 .102-.583c0-.343-.137-.515-.24-.515z" />
+                            </svg> Canva</p>
+                        <p><i class="fa-solid fa-g"></i> Gamma</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M14.727 6.727H14V0H4.91c-.905 0-1.637.732-1.637 1.636v20.728c0 .904.732 1.636 1.636 1.636h14.182c.904 0 1.636-.732 1.636-1.636V6.727zm-.545 10.455H7.09v-1.364h7.09v1.364zm2.727-3.273H7.091v-1.364h9.818zm0-3.273H7.091V9.273h9.818zM14.727 6h6l-6-6z" />
+                            </svg> Google Docs</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M11.318 12.545H7.91v-1.909h3.41v1.91zM14.728 0v6h6zm1.363 10.636h-3.41v1.91h3.41zm0 3.273h-3.41v1.91h3.41zM20.727 6.5v15.864c0 .904-.732 1.636-1.636 1.636H4.909a1.636 1.636 0 0 1-1.636-1.636V1.636C3.273.732 4.005 0 4.909 0h9.318v6.5zm-3.273 2.773H6.545v7.909h10.91v-7.91zm-6.136 4.636H7.91v1.91h3.41v-1.91z" />
+                            </svg> Google Sheets</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M488.877 52.447H302.306V5.92h-34.779L0 52.563v406.99l265.957 46.527h36.349v-46.353h174.59c9.887-.465 20.879.291 29.37-5.757c6.804-10.41 5.06-23.438 5.641-35.186V75.012c1.221-13.26-9.77-23.903-23.03-22.565m-294.862 282.59c-9.712 5.06-24.252-.233-35.767.581c-7.735-38.5-16.75-76.768-23.67-115.443c-6.805 37.57-15.645 74.79-23.438 112.128c-11.166-.581-22.39-1.28-33.615-2.035c-9.655-51.18-20.995-102.01-30.01-153.305c9.945-.465 19.948-.872 29.893-1.221c5.99 37.047 12.795 73.919 18.03 111.024c8.2-38.036 16.574-76.071 24.717-114.106c11.05-.64 22.1-1.105 33.15-1.687c7.735 39.257 15.644 78.455 24.019 117.537c6.572-40.361 13.841-80.607 20.879-120.91c11.631-.407 23.263-1.047 34.836-1.745c-13.143 56.355-24.659 113.176-39.024 169.182m290.212 97.069H302.306v-36.527h151.21v-23.263h-151.21v-29.079h151.21v-23.263h-151.21v-29.08h151.21v-23.262h-151.21v-29.08h151.21V215.29h-151.21v-29.08h151.21v-23.263h-151.21v-29.079h151.21v-23.263h-151.21v-30.71h181.921z" />
+                            </svg> Microsoft Word</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M453.547 273.449H372.12v-40.714h81.427zm0 23.264H372.12v40.714h81.427zm0-191.934H372.12v40.713h81.427zm0 63.978H372.12v40.713h81.427zm0 191.934H372.12v40.714h81.427zm56.242 80.264c-2.326 12.098-16.867 12.388-26.58 12.796H302.326v52.345h-36.119L0 459.566V52.492L267.778 5.904h34.548v46.355h174.66c9.83.407 20.648-.291 29.197 5.583c5.991 8.608 5.41 19.543 5.817 29.43l-.233 302.791c-.29 16.925 1.57 34.2-1.978 50.892m-296.51-91.256c-16.052-32.57-32.395-64.909-48.39-97.48c15.82-31.698 31.408-63.512 46.937-95.327c-13.203.64-26.406 1.454-39.55 2.385c-9.83 23.904-21.288 47.169-28.965 71.888c-7.154-23.323-16.634-45.774-25.3-68.515c-12.796.698-25.592 1.454-38.387 2.21c13.493 29.78 27.86 59.15 40.946 89.104c-15.413 29.081-29.837 58.57-44.785 87.825c12.737.523 25.475 1.047 38.212 1.221c9.074-23.148 20.357-45.424 28.267-69.038c7.096 25.359 19.135 48.798 29.023 73.051c14.017.99 27.976 1.862 41.993 2.676M484.26 79.882H302.326v24.897h46.53v40.713h-46.53v23.265h46.53v40.713h-46.53v23.265h46.53v40.714h-46.53v23.264h46.53v40.714h-46.53v23.264h46.53v40.714h-46.53v26.897H484.26z" />
+                            </svg> Microsoft Excel</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M488.698 58.311H302.231V5.981h-32.968L0 52.614v406.89l266.066 46.515h36.165v-58.144h174.49c9.942-.465 20.99.524 29.478-5.64c6.745-10.407 5.11-23.432 5.692-35.177V81.104c1.337-13.373-9.82-24.072-23.193-22.793M170.535 275.304c-13.198 6.744-28.316 5.814-42.677 5.349l-.058 68.202l-34.596-2.907l.058-186.35c31.573 1.511 69.831-12.501 95.996 11.163c25.06 30.41 18.431 86.344-18.723 104.543m313.572 145.13H302.231v-36.518h139.545V360.66H302.231v-29.072h139.545V308.33H302.289s-.058-22.792-.116-34.188c23.025 7.151 49.248 6.977 69.83-6.861c22.27-13.199 33.898-38.375 35.817-63.493h-76.517v-75.936l-29.072 5.873V85.752h181.876zm-141.18-304.735c40.41 1.86 74.429 36.021 76.58 76.315h-76.58zM127.8 191.053c11.454-.523 25.641-2.616 33.374 8.14c6.629 11.397 6.28 26.398.756 38.143c-6.628 11.977-21.63 10.815-33.2 12.21c-1.22-19.478-1.105-38.956-.93-58.493" />
+                            </svg> Microsoft Powerpoint</p>
+                    </div>
+
+                    <!-- Languages section  -->
+                    <div class="mt-2 border border-2 border-warning p-1">
+                        <h5>Languages</h5>
+                        <p>Thai (Native)</p>
+                        <p>English (Basic)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects section -->
+    <div class="bg-warning p-5" id="projects">
+        <h1 class="border border-5 border-dark border p-2 text-center" data-aos="fade-down">Projects</h1>
+
+        <div class="pt-5" data-aos="fade-down">
+            <div class="border border-3 border-dark p-5 text-center">
+                <img class="img-fluid" src="picture/Projects_WEBP/Screenshot 2025-06-17 154037_result.webp"
+                    alt="กำลังดำเนินการแก้ไข.....">
+                <h2 class="mt-3 mb-3">Basic HTML CSS JavaScript</h2>
+                <a href="https://phatthasuk.github.io/my-coffee-shop/" class="text-decoration-none text-dark p-1">
+                    Click ! : My Coffee Shop <i class="fa-solid fa-mug-hot"></i></a>
+            </div>
+        </div>
+
+        <div class="pt-5 text-center" data-aos="fade-down">
+            <button id="TopBtn" class="p-3 bg-black text-warning"> Go To
+                Top <i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+    </div>
+
+    <!-- Footer section  -->
+    <Footer class="container bg-dark p-5 d-flex justify-content-between">
+        <div class="text-warning fs-5 align-content-center">
+            <h3>Copyright @2025</h3>
+        </div>
+
+        <div class="text-warning fs-5 mt-3">
+            <div>
+                <h3 class="text-decoration-underline">Contact Me</h3>
+                <a href="https://www.facebook.com/phatthasuk/" class="text-decoration-none text-warning"> <i
+                        class="fa-brands fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/pp.filter/" class="text-decoration-none text-warning"> <i
+                        class="fa-brands fa-instagram"></i> Instagram</a>
+                <p><i class="fa-regular fa-envelope"></i> phatthasuk.p@gmail.com</p>
+            </div>
+        </div>
+    </Footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
